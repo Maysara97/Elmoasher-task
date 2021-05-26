@@ -1,0 +1,69 @@
+.containerFooter{
+    background-color: #041004;
+    padding: 2% 5%;
+    color: white !important;
+    width: 100%;
+
+    .about{
+        .title{
+            font-size: 20px;
+        }
+
+        .para{
+            font-size: 16px;
+            margin-top: 4%;
+        }
+    }
+
+    .social{
+        .title{
+            font-size: 16px;
+        }
+        .socialIcon{
+            margin-top: 4%;
+            span{
+                margin-right: 2%;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .links{
+        margin-top: 7%;
+        margin-left: 20%;
+        .link{
+            font-size: 14px;
+            line-height: 30px;
+            span{
+                select{
+                    border: none;
+                    background-color: transparent;
+                    color: white;
+                    option{
+                        color: black !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .payment{
+        .title{
+            font-size: 20px;
+        }
+
+        .visaAndMaster{
+            span{
+                margin-right: 2%;
+            }
+        }
+
+        .restOfPayments{
+            span{
+                margin-right: 2%;
+            }
+        }
+    }
+}

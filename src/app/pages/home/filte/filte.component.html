@@ -1,0 +1,118 @@
+<div class="container">
+    <p-panel header="Categories" icon="'pi pi-arrow-down'" [collapsed]="false" [toggleable]="true" styleClass="categoryFilterPanal"
+            [collapseIcon]="'pi pi-chevron-down'" [expandIcon]="'pi pi-chevron-right'">
+            <hr class="theLine">
+            <div class="p-field-checkbox">
+                <label for="brand1" class="hoverLbl">Digital Marketing</label>
+            </div>
+            <div class="p-field-checkbox">
+                <label for="brand2" class="hoverLbl">Human Resources</label>
+            </div>
+            <div class="p-field-checkbox">
+                <label for="brand3" class="hoverLbl">Entrepreneurship</label>
+            </div>
+            <div class="p-field-checkbox">
+                <label for="brand4" class="hoverLbl">Managment</label>
+            </div>
+            <div class="p-field-checkbox">
+                <label for="brand5" class="hoverLbl">Sales</label>
+            </div>
+            <div class="p-field-checkbox">
+                <label for="brand6" class="hoverLbl">Marketing</label>
+            </div>
+    </p-panel>
+    
+<p-panel header="Courses Rating" [collapsed]="false" [toggleable]="true" styleClass="categoryFilterPanal"
+            [collapseIcon]="'pi pi-chevron-down'" [expandIcon]="'pi pi-chevron-right'">
+            <hr class="theLine">
+            <div class="p-field-checkbox">
+                <p-checkbox name="rate1" value="rate1"  inputId="rate1"></p-checkbox>
+                <label for="rate1">
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                </label>
+            </div>
+
+            <div class="p-field-checkbox">
+                <p-checkbox name="rate2" value="rate2"  inputId="rate2"></p-checkbox>
+                <label for="rate2">
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                </label>
+            </div>
+
+            <div class="p-field-checkbox">
+                <p-checkbox name="rate3" value="rate3"  inputId="rate3"></p-checkbox>
+                <label for="rate3">
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                </label>
+            </div>
+
+            <div class="p-field-checkbox">
+                <p-checkbox name="rate4" value="rate4"  inputId="rate4"></p-checkbox>
+                <label for="rate4">
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                </label>
+            </div>
+
+            <div class="p-field-checkbox">
+                <p-checkbox  name="rate5" value="rate5" inputId="rate5"></p-checkbox>
+                <label for="rate5">
+                    <span class="rateStar"><img src="assets/Images/i2.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                    <span class="rateStar"><img src="assets/Images/i3.svg"></span>
+                </label>
+            </div>
+    </p-panel>
+
+    <p-panel header="Levels" icon="'pi pi-arrow-down'" [collapsed]="false" [toggleable]="true" styleClass="categoryFilterPanal"
+            [collapseIcon]="'pi pi-chevron-down'" [expandIcon]="'pi pi-chevron-right'">
+            <hr class="theLine">
+            <div class="p-field-checkbox">
+                <p-checkbox name="level1" value="level1" [(ngModel)]="selectedLevels" inputId="level1"></p-checkbox>
+                <label for="brand1">Beginner</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox name="level2" value="level2" [(ngModel)]="selectedLevels" inputId="level2"></p-checkbox>
+                <label for="brand2">Immediate</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox name="level3" value="level3" [(ngModel)]="selectedLevels" inputId="level3"></p-checkbox>
+                <label for="brand3">High Level</label>
+            </div>
+    </p-panel>
+
+    <p-panel header="Time" icon="'pi pi-arrow-down'" [collapsed]="false" [toggleable]="true" styleClass="categoryFilterPanal"
+            [collapseIcon]="'pi pi-chevron-down'" [expandIcon]="'pi pi-chevron-right'">
+            <hr class="theLine">
+            <div class="p-field-checkbox">
+                <p-checkbox name="time1" value="time1" [(ngModel)]="selectedTime" inputId="time1"></p-checkbox>
+                <label for="brand1">Less Than 4 hrs</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox name="time2" value="time2" [(ngModel)]="selectedTime" inputId="time2"></p-checkbox>
+                <label for="brand2">Less Than 8 hrs</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox name="time3" value="time3" [(ngModel)]="selectedTime" inputId="time3"></p-checkbox>
+                <label for="brand3">More than 8 hrs</label>
+            </div>
+    </p-panel>
+</div>
+

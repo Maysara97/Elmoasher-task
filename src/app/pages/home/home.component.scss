@@ -1,0 +1,27 @@
+.homeWrapper{
+    padding: 2% 5%;
+    .homeTitle{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+  
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+
+  .noData{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20%;
+  }
+}
+
+@media (max-width:769px) {
+  .noData{
+    margin-top: 5%;
+  }
+}
+

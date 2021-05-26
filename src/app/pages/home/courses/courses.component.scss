@@ -1,0 +1,44 @@
+.container{
+    display: inline-block;
+    width: 100%;
+    .zoom{
+        transition-duration: 1s;
+    }
+
+    .zoom:hover{
+        transform: scale(1.2);
+        transition-duration: 1s;
+        z-index: 1;
+        background-color: rgb(247, 243, 243);
+    }
+
+    .firstHeader{
+        width: 100%;
+        .headerTitle{
+            color: #030397;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            width: 90%;
+            span{
+                opacity: 0.5;
+                color: black !important;
+                font-size: 12px !important;
+                font-weight: 600;
+                margin-left: 1%;
+            }
+        }
+
+        .headerSort{
+            font-size: 14px;
+            font-weight: bold;
+            opacity: 0.9;
+            display: inline-block;
+            width: 10%;
+            cursor: pointer;
+            span{
+                margin-left: 2%;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    display: inline-block;
+    .card{
+        width: 100%;
+        display: inline-block;
+        .courseImage{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .details{
+            .title{
+                font-weight: bold;
+                font-size: 13px;
+                color: chartreuse;
+            }
+
+            .instructor{
+                font-size: 12px !important;
+                font-weight: bold;
+                .instructorName{
+                    color: #030397;
+                    margin-left: 2%;
+                }
+            }
+            .description{
+                font-size: 14px;
+                font-weight: 600;
+                opacity: 0.5;
+            }
+
+            .rate{
+                .rateStar{
+                    img{
+                        width: 7%;
+                    }
+                }
+                .rateNumber{
+                    opacity: 0.5;
+                    font-size: 12px;
+                    margin-left: 2%;
+                }
+            }
+        }
+    }
+}

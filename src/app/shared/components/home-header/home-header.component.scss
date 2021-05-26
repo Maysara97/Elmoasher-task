@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    display: inline-block;
+    padding: 5px 1%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #0000000D;
+    border-bottom: 1px solid #d1d1d1;
+
+    .logoAndSearch{
+        display: flex;
+        .theLogo{
+            width:7%;
+            img{
+                width: 100%;
+            }
+        }
+
+        .dropDown{
+            margin-left: 5%;
+            margin-top: 1%;
+            select{
+                border: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+
+        .searchBar{
+            width: 70%;
+            margin-left:2%;
+            position: relative;
+            span{
+                position: absolute;
+                top: 34%;
+                left: 2%;
+                opacity: 0.5;
+                font-size: 14px;
+            }
+            input{
+                width: 100%;
+                padding: 2% 5%;
+                opacity: 0.5;
+                border-radius: 8px;
+                border-color: #c9c9c9;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+        }
+    }
+
+    .buttons{
+        display: flex;
+
+        .theBtn{
+            background-color: transparent;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            color: black;
+            border: none;
+            overflow: none;
+            box-shadow: none;
+            margin-right: 5%;
+        }
+
+        .active{
+            background-color: #8eea8e!important;
+            padding: 3% 12%;
+            color: white;
+        }
+    }
+}
+
+.theBtnHover:hover{
+    color: lightgreen !important;
+    transition-duration: 0.5s;
+}

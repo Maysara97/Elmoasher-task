@@ -1,1 +1,32 @@
-<p>home works!</p>
+<app-home-header></app-home-header>
+
+<div class="homeWrapper">
+    <!--title below header-->
+    <div class="homeTitle">Display 2,301 total results for "Tasweeq"</div>
+
+    <div class="p-grid">
+        <div class="p-col-12 p-lg-4">
+            <app-filte></app-filte>
+        </div>
+
+        <div class="p-col-12 p-lg-8">
+            <p-tabView styleClass="productsTabs">
+                <p-tabPanel header="Courses (4)">
+                   <app-courses></app-courses>
+                </p-tabPanel>
+
+                <p-tabPanel header="Diplomas (5)">
+                    <div class="noData">No Diplomas Available Now,</div>
+                 </p-tabPanel>
+
+                 <p-tabPanel header="Articles (5)">
+                    <div class="noData">No Articles Available Now,</div>
+                 </p-tabPanel>
+                
+            </p-tabView>
+        </div>
+    </div>
+</div>
+
+<app-home-footer></app-home-footer>
+

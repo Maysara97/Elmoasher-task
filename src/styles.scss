@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.categoryFilterPanal{
+    font-family: Poppins;
+    border: none;
+    background-color: transparent;
+    .p-panel-header{
+      font-size: 18px;
+      border: none;
+      background-color: transparent;
+    }
+
+    .p-panel-content{
+      border: none;
+    }
+
+    .p-panel-header .p-panel-header-icon:focus{
+      box-shadow: none;
+    }
+}
+
+.categoryFilterPanal2{
+   .p-panel-content {
+    padding: 0 !important;
+    border: 1px solid #dee2e6;
+    background: #d6f5f5 !important;
+    color: #495057;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 0 none;
+}
+}
+
+.p-tabview-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-left: -53% !important;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #ffffff;
+  border-color: #8eea8e;
+  color: #8eea8e;
+}
+
+@media (max-width:769px) {
+  .p-tabview-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: 0 !important;
+}
+}
